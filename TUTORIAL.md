@@ -4,14 +4,14 @@
 4. Go to Terminal, New Terminal
 5. Pastikan Terminal nya itu 'Command Prompt' dan bukan Powershell
 6. Open Terminal, and type the following:
-    - conda create -n streamlit-tutorial-env python=3.9 streamlit pandas numpy scikit-learn plotly matplotlib seaborn scipy jupyter ipykernel xgboost lightgbm networkx folium
-    - conda activate streamlit-tutorial-env
+    - conda create -n boston_price python=3.9 streamlit pandas numpy scikit-learn plotly matplotlib seaborn scipy jupyter ipykernel xgboost lightgbm networkx folium
+    - conda activate boston_price
     - pip install streamlit==1.24.0 streamlit-folium pipreqs
     - Kalo ada yang diminta 'y'/'n', atau 'yes'/'no', selalu isi dengan 'y' atau 'yes' 
 
 7. Kalau mau nyobain streamlit, bisa run "streamlit run Hello.py", pastikan di Terminal itu ada di folder yang sama dengan file "Hello.py"
 8. Kembali ke Terminal, pastikan:
-    - Conda activate streamlit-tutorial-env
+    - Conda activate boston_price
     - Pastikan teman-teman ada di dalam folder 'Steamlit Demo' (folder tempat kerja teman-teman, folder yang ada Hello.py nya)
 
 9. Run this: pip list --format=freeze > pip_freeze.txt
