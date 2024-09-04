@@ -36,4 +36,4 @@ To run the Streamlit app locally:
 1. Clone this repository.
 2. Install the required Python packages (`streamlit`, `pandas`, `scikit-learn`, etc.).
 3. Navigate to the project directory in your terminal.
-4. Run the following command:
+4. Run the following command
